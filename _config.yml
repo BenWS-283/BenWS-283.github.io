@@ -1,3 +1,26 @@
-theme: jekyll-theme-minimal
-title: Ben Sedran Engineering Portfolio
-description: Ben Sedran Engineering Portfolio
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
+title: "Your Name | Mechanical Engineering Portfolio"
+url: "https://yourusername.github.io"
+baseurl: ""
+author:
+  name: "Your Name"
+  bio: "Mechanical engineering student..."
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cached
+  - jekyll-feed
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      toc: true
+      author_profile: true
