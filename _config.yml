@@ -1,4 +1,4 @@
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 minimal_mistakes_skin: default
 title: "Your Name | Mechanical Engineering Portfolio"
 url: "https://yourusername.github.io"
@@ -11,6 +11,7 @@ highlighter: rouge
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-include-cache
 collections:
   projects:
     output: true
