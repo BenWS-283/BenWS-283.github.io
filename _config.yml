@@ -1,11 +1,20 @@
 remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 minimal_mistakes_skin: default
-title: "Your Name | Mechanical Engineering Portfolio"
-url: "https://yourusername.github.io"
+title: "Ben Sedran | Engineering Portfolio"
+url: "https://benWS-283.github.io"
 baseurl: ""
 author:
   name: "Your Name"
-  bio: "Mechanical engineering student..."
+  avatar: "/assets/images/profile.jpg"
+  bio: "Mechanical engineering student interested in..."
+  location: "Ithaca, NY"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/BenWS-283"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yourprofile"
 markdown: kramdown
 highlighter: rouge
 plugins:
