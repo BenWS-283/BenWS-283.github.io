@@ -1,6 +1,6 @@
 ---
 title: "Custom Digital Alarm Clock"
-excerpt: "A digital alarm clock personal project."
+excerpt: "A digital alarm clock personal project"
 header:
   teaser: ../assets/images/alarmclockplaceholder.JPG
   overlay_image: ../assets/images/alarmclockplaceholder.JPG
@@ -21,6 +21,7 @@ My previous alarm clock had a few design choices that made it annoying and incon
 
 
 ## Bill of Materials
+
 | Part | Quantity | Description/Purpose |
 |------|----------|---------------------|
 | KB2040 | 1 | An RP2040 microcontroller based board |

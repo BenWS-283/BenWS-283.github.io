@@ -4,9 +4,9 @@ title: "Ben Sedran | Engineering Portfolio"
 url: "https://benWS-283.github.io"
 baseurl: ""
 author:
-  name: "Your Name"
+  name: "Ben Sedran"
   avatar: "/assets/images/profile.jpg"
-  bio: "Mechanical engineering student interested in..."
+  bio: "ME + CS at Cornell. Space systems and robotics."
   location: "Ithaca, NY"
   links:
     - label: "GitHub"
@@ -14,7 +14,7 @@ author:
       url: "https://github.com/BenWS-283"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/yourprofile"
+      url: "https://www.linkedin.com/in/Ben-Sedran"
 markdown: kramdown
 highlighter: rouge
 plugins:
