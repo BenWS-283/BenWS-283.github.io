@@ -1,15 +1,21 @@
+---
+---
+
+/* Taller project banner */
 .project-page .page__hero--overlay {
   min-height: 420px;
   display: flex;
   align-items: center;
 }
 
+/* Landing page banner text */
 .page__hero--overlay .page__title,
 .page__hero--overlay .page__lead,
 .page__hero--overlay .page__lead p {
-  color: #e8f0f7;
+  color: #fff;
 }
 
+/* Project cards */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
