@@ -6,8 +6,10 @@ header:
   overlay_image: ../assets/images/alarm_clock_front.jpg
   overlay_filter: 0.4
 date: 2026-8-18
-thumbnail: /assets/images/alarm_clock_front.jpg
-thumbnail_alt: "Custom wooden digital alarm clock showing the time"
+card_images:
+  - /assets/images/alarm_clock_front.jpg
+  - /assets/images/alarm_clock_side.jpg
+  - /assets/images/alarm_clock_top.jpg
 tools: "RP2040 · C++ · 3D printing · Soldering · Table Saw"
 ---
 

@@ -26,8 +26,10 @@ gallery:
     alt: "Arduino and TMC2209 wiring"
     title: "Control electronics"
 
-thumbnail: /assets/images/RPM_image.jpg
-thumbnail_alt: "Two-axis random positioning machine"
+card_images:
+  - /assets/images/RPM_electronics.JPG
+  - /assets/images/RPM_culture_flasks.JPG
+  - /assets/images/RPM_image.jpg
 tools: "Fusion · 3D printing · TMC2209 · Arduino · QT PY2040"
 ---
 
