@@ -2,14 +2,17 @@
 title: "Custom Digital Alarm Clock"
 excerpt: "A digital alarm clock personal project"
 header:
-  teaser: ../assets/images/alarm_clock_front.jpg
-  overlay_image: ../assets/images/alarm_clock_front.jpg
+  teaser: /assets/images/alarm_clock_front.jpg
+  overlay_image: /assets/images/alarm_clock_front.jpg
   overlay_filter: 0.4
 date: 2026-8-18
-card_images:
-  - /assets/images/alarm_clock_front.jpg
-  - /assets/images/alarm_clock_side.jpg
-  - /assets/images/alarm_clock_top.jpg
+author_profile: false
+toc: false
+classes:
+  - wide
+  - project-page
+thumbnail: /assets/images/alarm_clock_front.jpg
+thumbnail_alt: "Custom wooden digital alarm clock showing the time"
 tools: "RP2040 · C++ · 3D printing · Soldering · Table Saw"
 ---
 
