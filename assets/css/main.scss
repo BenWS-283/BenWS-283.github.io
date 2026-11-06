@@ -1,3 +1,5 @@
+---
+---
 
 /* Taller project banner */
 .project-page .page__hero--overlay {
@@ -6,19 +8,27 @@
   align-items: center;
 }
 
-/* Landing page banner text */
+/* Keep overlay banner text readable against the image. */
 .page__hero--overlay .page__title,
-.page__hero--overlay .page__lead,
+.page__hero--overlay p.page__lead,
 .page__hero--overlay .page__lead p {
   color: #fff;
+}
+
+.page__hero--overlay p.page__lead {
+  opacity: 1;
 }
 
 /* Project cards */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin: 2rem 0;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .project-card {
@@ -50,17 +60,17 @@
   img:only-child { grid-column: 1 / -1; }
 }
 
-.project-card__images--single {
+.project-card__images--1 {
   grid-template-columns: 1fr;
   img { height: 320px; }
 }
 
-.project-card__images--pair {
+.project-card__images--2 {
   grid-template-columns: 1fr 1fr;
-  img { height: 160px; }
+  img { height: 200px; }
 }
 
-.project-card__images--stack {
+.project-card__images--3 {
   grid-template-columns: 1fr 1fr;
   img { height: 100px; }
   img:first-child { grid-column: 1 / -1; height: 200px; }

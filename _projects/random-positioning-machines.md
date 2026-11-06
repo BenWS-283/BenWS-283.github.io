@@ -26,9 +26,8 @@ gallery:
     alt: "Arduino and TMC2209 wiring"
     title: "Control electronics"
 
-card_layout: pair    # single, pair, or stack
 card_images:
-  - /assets/images/RPM_electronics.jpg
+  - /assets/images/RPM_electronics.JPG
   - /assets/images/RPM_culture_flasks.JPG
   - /assets/images/RPM_image.jpg
 tools: "Fusion · 3D printing · TMC2209 · Arduino · QT PY2040"

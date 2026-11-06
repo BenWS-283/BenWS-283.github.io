@@ -6,7 +6,6 @@ header:
   overlay_image: ../assets/images/alarm_clock_front.jpg
   overlay_filter: 0.4
 date: 2026-8-18
-card_layout: stack    # single, pair, or stack
 card_images:
   - /assets/images/alarm_clock_front.jpg
   - /assets/images/alarm_clock_side.jpg
