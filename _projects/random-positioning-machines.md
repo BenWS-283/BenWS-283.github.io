@@ -26,7 +26,7 @@ gallery:
     alt: "Arduino and TMC2209 wiring"
     title: "Control electronics"
 
-card_layout: stack    # single, pair, or stack
+card_layout: pair    # single, pair, or stack
 card_images:
   - /assets/images/RPM_electronics.jpg
   - /assets/images/RPM_culture_flasks.JPG

@@ -57,13 +57,13 @@
 
 .project-card__images--pair {
   grid-template-columns: 1fr 1fr;
-  img { height: 240px; }
+  img { height: 160px; }
 }
 
 .project-card__images--stack {
   grid-template-columns: 1fr 1fr;
-  img { height: 150px; }
-  img:first-child { grid-column: 1 / -1; height: 260px; }
+  img { height: 100px; }
+  img:first-child { grid-column: 1 / -1; height: 200px; }
 }
 
 .project-card__body {
