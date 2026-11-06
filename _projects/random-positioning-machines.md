@@ -3,8 +3,8 @@ title: "Random Positioning Machines"
 excerpt: "Eight low-cost, two-axis RPMs that simulate microgravity for space microbiology research."
 date: 2026-08-15
 header:
-  teaser: /assets/images/RPM_image.jpg
-  overlay_image: /assets/images/RPM_image.jpg
+  teaser: /assets/images/rpm-teaser.jpg
+  overlay_image: /assets/images/rpm-header.jpg
   overlay_filter: 0.4
 author_profile: false
 toc: false
@@ -13,16 +13,16 @@ classes:
   - project-page
 
 gallery:
-  - url: /assets/images/RPM_image.jpg
-    image_path: /assets/images/RPM_image.jpg
+  - url: /assets/images/rpm-assembly.jpg
+    image_path: /assets/images/rpm-assembly.jpg
     alt: "Assembled RPM"
     title: "Assembled machine"
-  - url: /assets/images/RPM_culture_flasks.JPG
-    image_path: /assets/images/RPM_culture_flasks.JPG
-    alt: "Culture flasks held in the RPM"
-    title: "Culture flask holders"
-  - url: /assets/images/RPM_electronics.JPG
-    image_path: /assets/images/RPM_electronics.JPG
+  - url: /assets/images/rpm-cad.png
+    image_path: /assets/images/rpm-cad.png
+    alt: "Fusion render of the RPM frame"
+    title: "CAD model"
+  - url: /assets/images/rpm-electronics.jpg
+    image_path: /assets/images/rpm-electronics.jpg
     alt: "Arduino and TMC2209 wiring"
     title: "Control electronics"
 
@@ -88,6 +88,9 @@ void loop() {
 I built eight battery-powered, attachable g-vector loggers that record orientation and acceleration to microSD. Logging a machine's motion lets you compute the time-averaged gravity vector, which should approach zero if the randomization is working.
 
 [Add your result here: average residual g-level, run duration, and how consistent the eight machines were.]
+
+![Logged g-vector data]({{ site.baseurl }}/assets/images/rpm-gvector-plot.png)
+*[Caption: what the plot shows.]*
 
 ## Results and Lessons
 

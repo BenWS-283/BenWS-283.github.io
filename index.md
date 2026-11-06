@@ -1,8 +1,6 @@
 ---
 layout: splash
 permalink: /
-classes:
-  - home-page
 title: "Ben Sedran"
 excerpt: "Mechanical engineering and computer science at Cornell | Space systems and robotics"
 header:
@@ -14,6 +12,15 @@ header:
     - label: "About Me"
       url: /about/
 
+gallery:
+  - url: /projects/random-positioning-machines/
+    image_path: /assets/images/RPM_image.jpg
+    alt: "Random positioning machine for microgravity simulation"
+    title: "Random Positioning Machines"
+  - url: /projects/alarm-clock/
+    image_path: /assets/images/alarm_clock_side.jpg
+    alt: "Custom digital alarm clock in plywood enclosure"
+    title: "Digital Alarm Clock"
 ---
 
 ## Overview
@@ -28,18 +35,11 @@ I grew up in Bedford, MA, and now study in Ithaca, NY. Outside of class I play o
 [Resume (PDF)]({{ site.baseurl }}/assets/files/Ben_Sedran_Resume.pdf){: .btn .btn--info }
 [LinkedIn](https://www.linkedin.com/in/ben-sedran-b151593a5){: .btn .btn--info }
 
+![Ben Sedran working on an RPM]({{ site.baseurl }}/assets/images/profile.jpg){: .align-left style="width: 180px; border-radius: 50%;"}
+
 ## Featured Projects
 
-{% assign featured_projects = site.projects | sort: "date" | reverse %}
-<div class="featured-project-grid">
-{% for project in featured_projects limit: 2 %}
-<a class="featured-project" href="{{ project.url | relative_url }}">
-<img src="{{ project.thumbnail | relative_url }}" alt="{{ project.thumbnail_alt | default: project.title | escape }}" loading="lazy">
-<span class="featured-project__title">{{ project.title }}</span>
-</a>
-{% endfor %}
-</div>
-Click a project to read the full writeup.
+{% include gallery id="gallery" layout="half" caption="Click a project to read the full writeup." %}
 
 [View all projects]({{ site.baseurl }}/projects/){: .btn .btn--primary .btn--large }
 
