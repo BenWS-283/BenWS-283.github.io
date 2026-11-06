@@ -40,7 +40,7 @@ Relevant coursework: Dynamics, Statics and Mechanics of Materials, Mechanical De
 |----------|-------|
 | CAD / analysis | Autodesk Fusion, Onshape, MATLAB |
 | Embedded / electronics | Arduino, RP2040, I2C, stepper motors, soldering |
-| Programming | Java, C/C++, OCaml, RISC-V Assembly |
+| Programming | Java, C, C++, OCaml, RISC-V Assembly |
 | Fabrication | 3D printing, machining, woodworking |
 | Other | Git, Linux |
 
@@ -54,5 +54,5 @@ I play for Cornell Club Water Polo, which competes in New York and national club
 {: .notice--info}
 
 [Download Resume]({{ site.baseurl }}/assets/files/Ben_Sedran_Resume.pdf){: .btn .btn--primary }
-[LinkedIn](https://www.linkedin.com/in/Ben-Sedran){: .btn .btn--info }
+[LinkedIn](https://www.linkedin.com/in/ben-sedran-b151593a5){: .btn .btn--info }
 [GitHub](https://github.com/BenWS-283){: .btn .btn--info }

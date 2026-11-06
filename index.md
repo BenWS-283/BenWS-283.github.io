@@ -14,19 +14,15 @@ header:
 
 gallery:
   - url: /projects/random-positioning-machines/
-    image_path: /assets/images/rpm.jpg
+    image_path: /assets/images/RPM_image.jpg
     alt: "Random positioning machine for microgravity simulation"
     title: "Random Positioning Machines"
   - url: /projects/autonomous-drone/
     image_path: /assets/images/drone.jpg
     alt: "Carbon fiber octocopter drone"
     title: "Octocopter Firefighting Drone"
-  - url: /projects/lanternfly-trap/
-    image_path: /assets/images/lanternfly.jpg
-    alt: "Spotted lanternfly trap prototype"
-    title: "Spotted Lanternfly Trap"
   - url: /projects/alarm-clock/
-    image_path: /assets/images/alarm-clock.jpg
+    image_path: /assets/images/alarm_clock_side.jpg
     alt: "Custom digital alarm clock in plywood enclosure"
     title: "Digital Alarm Clock"
 ---
@@ -41,7 +37,9 @@ I grew up in Bedford, MA, and now study in Ithaca, NY. Outside of class I play o
 
 [Read more about me]({{ site.baseurl }}/about/){: .btn .btn--primary }
 [Resume (PDF)]({{ site.baseurl }}/assets/files/Ben_Sedran_Resume.pdf){: .btn .btn--info }
-[LinkedIn](https://www.linkedin.com/in/Ben-Sedran){: .btn .btn--info }
+[LinkedIn](https://www.linkedin.com/in/ben-sedran-b151593a5){: .btn .btn--info }
+
+![Ben Sedran working on an RPM]({{ site.baseurl }}/assets/images/profile.jpg){: .align-left style="width: 180px; border-radius: 50%;"}
 
 ## Featured Projects
 
