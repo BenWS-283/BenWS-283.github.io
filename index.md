@@ -17,10 +17,6 @@ gallery:
     image_path: /assets/images/RPM_image.jpg
     alt: "Random positioning machine for microgravity simulation"
     title: "Random Positioning Machines"
-  - url: /projects/autonomous-drone/
-    image_path: /assets/images/drone.jpg
-    alt: "Carbon fiber octocopter drone"
-    title: "Octocopter Firefighting Drone"
   - url: /projects/alarm-clock/
     image_path: /assets/images/alarm_clock_side.jpg
     alt: "Custom digital alarm clock in plywood enclosure"
