@@ -6,14 +6,14 @@ header:
   teaser: /assets/images/RPM_image.jpg
   overlay_image: /assets/images/RPM_image.jpg
   overlay_filter: 0.4
-author_profile: false
+author_profile: true
 toc: false
 classes:
   - wide
   - project-page
 card_image: /assets/images/RPM_image.jpg
 tools: "Fusion · 3D printing · TMC2209 · Arduino · QT PY2040"
-
+title_color: "#e6eaee"
 gallery:
   - url: /assets/images/RPM_image.jpg
     image_path: /assets/images/RPM_image.jpg
@@ -29,10 +29,13 @@ gallery:
     title: "Lab setup"
 ---
 
+<div class="notice--info" markdown="1">
 **Role:** Research Assistant, Santomartino Space-Microbiology Research Group, Cornell University
+
 **Timeline:** May 2026 – Aug. 2026
+
 **Tools:** Autodesk Fusion, 3D printing, Arduino, TMC2209 drivers, Nema 17 steppers
-{: .notice--info}
+</div>
 
 ## Overview
 

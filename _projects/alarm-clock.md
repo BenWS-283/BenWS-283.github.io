@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/alarm_clock_front.jpg
   overlay_image: /assets/images/alarm_clock_front.jpg
   overlay_filter: 0.4
-author_profile: false
+author_profile: true
 toc: false
 classes:
   - wide
@@ -15,10 +15,13 @@ card_image: /assets/images/alarm_clock_front.jpg
 tools: "RP2040 · C++ · I2C · 3D printing · Soldering · Table Saw"
 ---
 
+<div class="notice--info" markdown="1">
 **Type:** Personal project
+
 **Timeline:** August 2026
+
 **Tools:** C++ (Arduino IDE), RP2040, DS3231 RTC, 3D printing, soldering, table saw
-{: .notice--info}
+</div>
 
 ## Project Objectives
 - Replace an old, broken alarm clock with a custom-built one that avoids its problems

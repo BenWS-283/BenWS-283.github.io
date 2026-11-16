@@ -1,1 +1,114 @@
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<style>
+/* Project page banner: taller, with a text shadow for readability */
+.project-page .page__hero--overlay .wrapper {
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead,
+.page__hero--overlay .page__lead p {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.65);
+}
+
+/* Banner text color: set per page with title_color, white by default */
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead,
+.page__hero--overlay .page__lead p {
+  color: var(--hero-title-color, #fff);
+}
+
+/* Landing page excerpt: full opacity, heavier, readable */
+.layout--splash .page__hero--overlay .page__lead,
+.layout--splash .page__hero--overlay .page__lead p {
+  color: var(--hero-title-color, #ffffff);;
+  opacity: 1;
+  font-weight: 500;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Projects grid: two cards per row, one on phones */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 700px) {
+  .project-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* Card */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(128, 128, 128, 0.6);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-card__image { display: block; }
+
+.project-card__image img {
+  display: block;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  margin: 0;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.6);
+}
+
+.project-card__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.25rem 1.5rem 1.5rem;
+}
+
+.project-card__body h2 {
+  margin: 0 0 0.5rem;
+  padding: 0;
+  border-bottom: none;
+  font-size: 1.4em;
+}
+
+.project-card__body h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-card__blurb {
+  margin: 0 0 1rem;
+  font-size: 0.95em;
+}
+
+/* Tool tags pinned to the bottom of the card */
+.project-card__tools {
+  margin-top: auto;
+  line-height: 2;
+}
+
+.tool-tag {
+  display: inline-block;
+  margin: 0 0.4rem 0.4rem 0;
+  padding: 0.1em 0.7em;
+  font-size: 0.75em;
+  line-height: 1.8;
+  border: 1px solid rgba(128, 128, 128, 0.6);
+  border-radius: 999px;
+}
+</style>
+
+{% if page.title_color %}
+<script>
+  document.documentElement.style.setProperty('--hero-title-color', '{{ page.title_color | escape }}');
+</script>
+{% endif %}
