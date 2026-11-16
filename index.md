@@ -11,7 +11,7 @@ header:
       url: /projects/
     - label: "About Me"
       url: /about/
-
+title_color: "#e6eaee"
 gallery:
   - url: /projects/random-positioning-machines/
     image_path: /assets/images/RPM_image.jpg
@@ -34,8 +34,6 @@ I grew up in Bedford, MA, and now study in Ithaca, NY. Outside of class I play o
 [Read more about me]({{ site.baseurl }}/about/){: .btn .btn--primary }
 [Resume (PDF)]({{ site.baseurl }}/assets/files/Ben_Sedran_Resume.pdf){: .btn .btn--info }
 [LinkedIn](https://www.linkedin.com/in/ben-sedran-b151593a5){: .btn .btn--info }
-
-![Ben Sedran's engineering work]({{ site.baseurl }}/assets/images/circuit_image.png){: .align-left style="width: 180px; border-radius: 50%;"}
 
 ## Featured Projects
 

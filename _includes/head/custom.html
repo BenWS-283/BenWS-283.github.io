@@ -1,8 +1,8 @@
 <style>
 /* Project page banner: taller, with a text shadow for readability */
 .project-page .page__hero--overlay .wrapper {
-  padding-top: 7em;
-  padding-bottom: 7em;
+  padding-top: 5.5em;
+  padding-bottom: 5.5em;
 }
 
 .page__hero--overlay .page__title,
@@ -27,6 +27,14 @@
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
 }
 
+/* Landing page gallery: uniform image size */
+.layout--splash .gallery img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
 /* Projects grid: two cards per row, one on phones */
 .project-grid {
   display: grid;
@@ -34,6 +42,21 @@
   gap: 2rem;
   margin: 2rem 0;
 }
+
+/* Projects page: use the full content width */
+.projects-index .page {
+  float: none;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.projects-index .page__inner-wrap {
+  float: none;
+  width: 100%;
+}
+
+.project-grid { gap: 1.5rem; }
 
 @media (max-width: 700px) {
   .project-grid { grid-template-columns: minmax(0, 1fr); }

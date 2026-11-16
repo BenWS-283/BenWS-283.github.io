@@ -1,13 +1,14 @@
 ---
 title: "Custom Digital Alarm Clock"
-excerpt: "A custom alarm clock built on an RP2040 with a DS3231 real-time clock, rotary-encoder time setting, and a handmade wooden enclosure, designed to fix the annoyances of my old one."
+excerpt: "A custom alarm clock built to fix the annoyances of my old one."
 date: 2026-08-18
 header:
-  teaser: /assets/images/alarm_clock_front.jpg
-  overlay_image: /assets/images/alarm_clock_front.jpg
+  teaser: /assets/images/alarm_clock_side.jpg
+  overlay_image: /assets/images/alarm_clock_side.jpg
   overlay_filter: 0.4
 author_profile: true
 toc: false
+title_color: "#a1a3a4"
 classes:
   - wide
   - project-page
