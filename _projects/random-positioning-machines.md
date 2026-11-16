@@ -3,32 +3,30 @@ title: "Random Positioning Machines"
 excerpt: "Eight low-cost, two-axis RPMs that simulate microgravity for space microbiology research."
 date: 2026-08-15
 header:
-  teaser: /assets/images/rpm-teaser.jpg
-  overlay_image: /assets/images/rpm-header.jpg
+  teaser: /assets/images/RPM_image.jpg
+  overlay_image: /assets/images/RPM_image.jpg
   overlay_filter: 0.4
 author_profile: false
 toc: false
 classes:
   - wide
   - project-page
+card_image: /assets/images/RPM_image.jpg
+tools: "Fusion · 3D printing · TMC2209 · Arduino · QT PY2040"
 
 gallery:
-  - url: /assets/images/rpm-assembly.jpg
-    image_path: /assets/images/rpm-assembly.jpg
+  - url: /assets/images/RPM_image.jpg
+    image_path: /assets/images/RPM_image.jpg
     alt: "Assembled RPM"
     title: "Assembled machine"
-  - url: /assets/images/rpm-cad.png
-    image_path: /assets/images/rpm-cad.png
-    alt: "Fusion render of the RPM frame"
-    title: "CAD model"
-  - url: /assets/images/rpm-electronics.jpg
-    image_path: /assets/images/rpm-electronics.jpg
+  - url: /assets/images/RPM_electronics.JPG
+    image_path: /assets/images/RPM_electronics.JPG
     alt: "Arduino and TMC2209 wiring"
     title: "Control electronics"
-
-thumbnail: /assets/images/RPM_image.jpg
-thumbnail_alt: "Two-axis random positioning machine"
-tools: "Fusion · 3D printing · TMC2209 · Arduino · QT PY2040"
+  - url: /assets/images/RPM_culture_flasks.JPG
+    image_path: /assets/images/RPM_culture_flasks.JPG
+    alt: "RPM culture flasks in the lab"
+    title: "Lab setup"
 ---
 
 **Role:** Research Assistant, Santomartino Space-Microbiology Research Group, Cornell University
@@ -57,7 +55,7 @@ A random positioning machine (RPM) rotates a sample about two axes in randomly c
 
 {% include gallery id="gallery" layout="third" caption="Click an image to enlarge it." %}
 
-Describe the frame: how the inner and outer axes are nested, how each stepper drives its axis, and how you kept the print count and part count low. Explain the modular holder system that adapts to the 7 container types and how a new type would be added (a new print, a swapped insert, an adjustable mount).
+[Describe the frame: how the inner and outer axes are nested, how each stepper drives its axis, and how you kept the print count and part count low. Explain the modular holder system that adapts to the 7 container types and how a new type would be added.]
 
 ## Electronics and Control
 

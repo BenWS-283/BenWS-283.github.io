@@ -35,7 +35,7 @@ I grew up in Bedford, MA, and now study in Ithaca, NY. Outside of class I play o
 [Resume (PDF)]({{ site.baseurl }}/assets/files/Ben_Sedran_Resume.pdf){: .btn .btn--info }
 [LinkedIn](https://www.linkedin.com/in/ben-sedran-b151593a5){: .btn .btn--info }
 
-![Ben Sedran working on an RPM]({{ site.baseurl }}/assets/images/profile.jpg){: .align-left style="width: 180px; border-radius: 50%;"}
+![Ben Sedran's engineering work]({{ site.baseurl }}/assets/images/circuit_image.png){: .align-left style="width: 180px; border-radius: 50%;"}
 
 ## Featured Projects
 
