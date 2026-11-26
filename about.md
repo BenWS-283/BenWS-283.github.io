@@ -53,6 +53,6 @@ I play for Cornell Club Water Polo, which competes in New York and national club
 **Email:** bws72@cornell.edu
 {: .notice--info}
 
-[Download Resume]({{ site.baseurl }}/assets/files/Ben_Sedran_Resume.pdf){: .btn .btn--primary }
+[Download Resume]({{ site.baseurl }}/assets/files/Portfolio_Ben_Sedran_Resume.pdf){: .btn .btn--primary }
 [LinkedIn](https://www.linkedin.com/in/ben-sedran-b151593a5){: .btn .btn--info }
 [GitHub](https://github.com/BenWS-283){: .btn .btn--info }

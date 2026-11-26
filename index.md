@@ -32,7 +32,7 @@ I'm a junior at Cornell studying Mechanical Engineering with a minor in Computer
 I grew up in Bedford, MA, and now study in Ithaca, NY. Outside of class I play on Cornell Club Water Polo, and I've worked as a swim instructor and lifeguard for several years, which taught me to lead and train others. [Add a sentence about what first got you into engineering.]
 
 [Read more about me]({{ site.baseurl }}/about/){: .btn .btn--primary }
-[Resume (PDF)]({{ site.baseurl }}/assets/files/Ben_Sedran_Resume.pdf){: .btn .btn--info }
+[Resume (PDF)]({{ site.baseurl }}/assets/files/Portfolio_Ben_Sedran_Resume.pdf){: .btn .btn--info }
 [LinkedIn](https://www.linkedin.com/in/ben-sedran-b151593a5){: .btn .btn--info }
 
 ## Featured Projects
@@ -47,11 +47,11 @@ I picked up most of these skills by building things, and each project pushed me 
 
 | Area | Tools | Used in |
 |------|-------|---------|
-| CAD | Autodesk Fusion, Onshape | RPMs, lanternfly trap, drone |
+| CAD / Analysis| Autodesk Fusion, Onshape, MATLAB and Simulink | RPMs, drone |
 | Embedded / electronics | Arduino, RP2040, DS3231 RTC, I2C, Nema 17 steppers, soldering | RPMs, g-vector loggers, alarm clock |
-| Programming | C/C++, Java, OCaml, RISC-V Assembly, MATLAB | Alarm clock, coursework |
-| Fabrication | 3D printing, machining, woodworking | All projects |
+| Programming | C, C++, Python, Java, OCaml, RISC-V Assembly | Alarm clock, RPMs, coursework |
+| Fabrication | 3D printing, manual lathe and mill, woodworking | All projects |
 | Version control and docs | Git, GitHub, Linux | RPM documentation repo, this portfolio |
 
-**Currently learning:** [e.g., a tool or skill for the drone project, like flight controllers or FEA]
+**Currently learning:** FEA using ANSYS and Simscale
 {: .notice--info}
